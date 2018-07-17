@@ -1,7 +1,7 @@
 {
   "Name": "Global",
   "Description": "Global Application to showcase pipeline.",
-  "Version": "0.0.1",
+  "Version": "0.0.2",
   "Template": "public-facing-webapp",
   "Build": {
     "BakeAMI": true
