@@ -9,7 +9,7 @@
   "Test": {
     "Commands": [
       "#! /bin/bash",
-      "STATUS_CODE=`eval \"curl -I http://${APP_ENDPOINT}:80/ 2>/dev/null | head -n 1|cut -d ' ' -f2\"`",
+      "STATUS_CODE=`eval \"curl -I http://$APP_ENDPOINT:80/ 2>/dev/null | head -n 1|cut -d ' ' -f2\"`",
       "echo $STATUS_CODE",
       "[ \"$STATUS_CODE\" -eq \"200\" ]"
     ]
